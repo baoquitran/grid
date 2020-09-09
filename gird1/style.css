@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #FEEEB7;
+  max-width: 720px;
+  margin: 200px auto;
+}
+.container div{
+  text-align: center;
+  font-size: 2rem;
+  color:#FEEEB7;
+  padding: 20px;
+  background-color: green;
+}
+.container div:nth-child(1){background: #E74C3C;}
+.container div:nth-child(2){background: #9B59B6;}
+.container div:nth-child(3){background: #8E44AD;}
+.container div:nth-child(4){background: #3498DB;}
+.container div:nth-child(5){background: #1ABC9C;}
+.container div:nth-child(6){background: #F39C12;}
+
+.container{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 80px); */
+  /* remember when using the shorthand method grid is like drawing an L */
+  grid-template: repeat(2, 80px) / repeat(3, 1fr);
+  grid-gap: 3px;
+}
