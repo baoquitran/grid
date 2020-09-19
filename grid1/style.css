@@ -79,3 +79,10 @@ body{
   /* grid-template-columns: minmax(100px, 1fr) 2fr; */
   grid-gap: 5px;
 }
+.submit a {
+  display: flx;
+  background-color: red;
+  color:white;
+  height: 100px;
+  width: 100px;
+}
