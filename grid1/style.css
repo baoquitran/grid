@@ -5,7 +5,7 @@
 }
 body{
   background: #FEEEB7;
-  max-width: 920px;
+  max-width: 720px;
   margin: 200px auto;
 }
 .container div, .container2 div, .container0 div{
@@ -78,11 +78,4 @@ body{
   grid-auto-rows: 100px;
   /* grid-template-columns: minmax(100px, 1fr) 2fr; */
   grid-gap: 5px;
-}
-.submit a {
-  display: flx;
-  background-color: red;
-  color:white;
-  height: 100px;
-  width: 100px;
 }
